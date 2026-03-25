@@ -39,8 +39,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="#home" className="flex items-center gap-2">
             <Image
-              src="/sanjeevan_logo.png"
-              alt="Sanjeevan Dental Logo"
+              src="/sanjeevaan-logo.png"
+              alt="Sanjeevaan Dental Logo"
               width={40}
               height={40}
               className="h-10 w-auto"

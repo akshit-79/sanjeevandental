@@ -104,7 +104,7 @@ export default function HeroSection() {
             className="relative h-96 md:h-full min-h-96"
           >
             <Image
-              src="/placeholder.jpg"
+              src="/hero-dental.jpg"
               alt="Modern dental chair and equipment"
               fill
               className="object-cover rounded-2xl"
