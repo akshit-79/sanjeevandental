@@ -71,7 +71,7 @@ export default function WhyUsSection() {
             className="relative h-96 md:h-full min-h-96"
           >
             <Image
-              src="/placeholder.jpg"
+              src="/team-facilities.jpg"
               alt="Our dental team and facilities"
               fill
               className="object-cover rounded-2xl"
