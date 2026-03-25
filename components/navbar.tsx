@@ -44,6 +44,8 @@ export default function Navbar() {
               width={40}
               height={40}
               className="h-10 w-auto"
+              loading="eager"
+              priority
             />
             <div className="hidden sm:block">
               <div className="text-lg font-bold text-secondary font-heading">SANJEEVAN</div>
