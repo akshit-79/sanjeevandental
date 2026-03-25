@@ -1,0 +1,27 @@
+{
+  "name": "sanjeevan-dental",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^19.0.0-rc-66f6ca3f74-20250212",
+    "react-dom": "^19.0.0-rc-66f6ca3f74-20250212",
+    "next": "^16.0.0",
+    "framer-motion": "^11.11.1",
+    "lucide-react": "^0.457.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "tailwindcss": "^3.4.17",
+    "postcss": "^8.4.49",
+    "autoprefixer": "^10.4.20",
+    "@types/node": "^20.18.5",
+    "@types/react": "^19.0.0-rc.0",
+    "@types/react-dom": "^19.0.0-rc.0"
+  }
+}
