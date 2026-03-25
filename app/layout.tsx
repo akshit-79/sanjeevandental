@@ -41,16 +41,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning style={{ fontFamily: inter.style.fontFamily }}>
       <head>
         <style suppressHydrationWarning>{`
-          html {
+          :root {
             --font-inter: ${inter.style.fontFamily};
             --font-poppins: ${poppins.style.fontFamily};
           }
         `}</style>
       </head>
-      <body className={`${inter.variable} ${poppins.variable} font-sans`}>
+      <body className={`${inter.variable} ${poppins.variable} font-sans`} suppressHydrationWarning>
         {children}
       </body>
     </html>
